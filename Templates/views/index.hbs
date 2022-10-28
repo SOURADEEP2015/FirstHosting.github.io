@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../partials/header.css"/>
+</head>
+   
+
+<body>
+    {{>header}}
+    <div style=" height:100%; ">
+        <div style="position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);  border:1px solid aqua">
+            <h1>Hi {{userName}},</h1>
+            <p>We are using Template Engine i.e Handlebars. It needs to set up the view engine as hbs through apo.set()
+                method.</p>
+        </div>
+    </div>
+</body>
+
+</html>
